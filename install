@@ -1,1 +1,11 @@
-echo "alias boiler=\"`pwd`/boiler\"" >> ~/.bashrc
+os="`uname`"
+
+if [ "$os" = "Darwin" ]; then
+   echo "alias boiler=\"`pwd`/boiler\"" >> ~/.bash_profile
+else
+   echo "alias boiler=\"`pwd`/boiler\"" >> ~/.bashrc
+fi
+presDir="`pwd`"
+echo -e "#!/bin/bash \nboilerRoot=\"$presDir/\"\n" >> boiler
+echo "`cat BoilDatJs`" >> boiler
+`chmod 777 boiler`

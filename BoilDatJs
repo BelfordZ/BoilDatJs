@@ -1,6 +1,3 @@
-#!/bin/bash 
-boilerRoot="/Users/Bawllz/Sites/proj/BoilDatJs/"
-
 indexLoc=$boilerRoot"bplate_index.html"
 classLoc=$boilerRoot"bplate_class.js"
 
