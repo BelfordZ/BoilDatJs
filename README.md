@@ -17,6 +17,6 @@ There ya' go. Next time you are starting a new project make your directory and t
 </ul>
 
 <b> Example </b> <br>
-boiler myClass1 myClass2 myClass3
-outputs files: index.html, myClass1 myClass2 myClass3
-index has the linked scripts, js file functions are properly named
+boiler myClass1 myClass2 myClass3 <br>
+outputs files: index.html, myClass1 myClass2 myClass3 <br>
+index has the linked scripts, js file functions are properly named <br>
