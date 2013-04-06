@@ -1,1 +1,1 @@
-echo ~/.bashrc >> alias boiler=pwd"boiler"
+echo "alias boiler=\"`pwd`/boiler\"" >> ~/.bashrc
