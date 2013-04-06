@@ -1,0 +1,19 @@
+#!/bin/bash
+boilerRoot="/home/belz3720/public_html/boiler/"
+indexLoc=$boilerRoot"bplate_index.html"
+classLoc=$boilerRoot"bplate_class.js"
+
+cp $indexLoc "index.html"
+
+class=("$@")
+
+i="0"
+while [ $i -lt $# ]
+do
+    value=`cat $classLoc`
+    value="function "${class[$i]}"() {""$value"
+    echo "$value" > ${class[$i]}".js"
+    echo -e "$s    <script type=\"text/javascript\" src=\""${class[$i]}".js\"></script>" >> "index.html"
+    i=$(($i+1))
+done
+echo -e "  </body> \n</html>" >> "index.html"
