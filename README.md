@@ -16,7 +16,7 @@ There ya' go. Next time you are starting a new project make your directory and t
 <li>'boiler' [any number of classes to make]</li>
 </ul>
 
-<b> Example </b>
+<b> Example </b> <br>
 boiler myClass1 myClass2 myClass3
 outputs files: index.html, myClass1 myClass2 myClass3
 index has the linked scripts, js file functions are properly named
