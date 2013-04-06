@@ -1,5 +1,5 @@
 #!/bin/bash
-boilerRoot="/home/belz3720/public_html/boiler/"
+boilerRoot=`pwd`"/"
 indexLoc=$boilerRoot"bplate_index.html"
 classLoc=$boilerRoot"bplate_class.js"
 
