@@ -20,8 +20,8 @@ There ya' go. Next time you are starting a new project make your directory and t
 </p>
 
 <h1> Example Usage</h1>
-<p>To start a project from your bp_index.html file and class template bp_class.js I could type the following: 
-boiler myClass1 myClass2 myClass3 <br>
+<p>To start a project from your bp_index.html file and class template bp_class.js I could type the following: </p>
+```boiler myClass1 myClass2 myClass3``` <br>
 This will create an index.html, linked with myClass1, myClass2, etc.<br>
 </p>
 [![githalytics.com alpha](https://cruel-carlota.pagodabox.com/287f55bc8bb5d2bda275b4e2f565405f "githalytics.com")](http://githalytics.com/BelfordZ/BoilDatJs)
