@@ -5,6 +5,9 @@
 
 <h1>It's simple as it gets</h1>
 <p>
+note: the installer just creates an alias and refernces the bash script. It assumes you are using bash_profile.
+you are better off just making your own alias according to your configuration.
+
 Linux & OSX: (terminalate the following) 
 <ul>
 <li>'mkdir BoilDatJs'</li>
